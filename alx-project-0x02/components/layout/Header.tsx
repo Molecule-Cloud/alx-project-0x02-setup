@@ -8,19 +8,19 @@ const Header: React.FC = () => {
                 <div className='bg-black'>
                     <Image src="/" width={30} height={30} alt="Logo"></Image>
                 </div>
-                <div>
+                <nav>
                     <ul className='flex space-x-6'>
                         <li>Home
-                            <Link href="#"></Link>
+                            <Link href="/home"></Link>
                         </li>
                         <li>About
-                            <Link href="#"></Link>
+                            <Link href="/about"></Link>
                         </li>
                         <li>Explore
                             <Link href="#"></Link>
                         </li>
                     </ul>
-                </div>
+                </nav>
                 <div className="p-2 space-x-6">
                     <button className='bg-green-400 rounded-md border-b p-3'>Sign In</button>
                     <button className='bg-green-400 rounded-md border-b p-3'>Sign Up</button>
