@@ -3,3 +3,10 @@ export interface Test{
     id: number;
     username: string;
 }
+
+
+export interface CardProps {
+    title: string;
+    content: string;
+}
+
