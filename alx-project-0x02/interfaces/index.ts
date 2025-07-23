@@ -10,3 +10,9 @@ export interface CardProps {
     content: string;
 }
 
+export interface PostModalProps {
+    isOpen: boolean;
+    onClose: () => void;
+    onSubmit: (title: string, content: string) => void;
+}
+
