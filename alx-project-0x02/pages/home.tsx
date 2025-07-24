@@ -1,6 +1,7 @@
 import Card from "@/components/common/Card";
 import { useState } from 'react'
 import PostModal from '@/components/common/PostModal'
+import Header from '@/components/layout/Header'
 
 
 const Home: React.FC = () => {
@@ -13,6 +14,7 @@ const Home: React.FC = () => {
     }
     return (
         <>
+        <Header />
             <div className="flex items-center justify-center space-x-4">
                 <div className="bg-red-500">
                     <Card title="Senior Dev" content="This is a senior dev" />

@@ -6,8 +6,6 @@ const Landing: React.FC = () => {
   return (
     <>
     <Header />
-    <Home />
-    <About />
     </>
   )
 }
