@@ -33,3 +33,33 @@ export interface PostProps {
 export interface PostsPageProps {
     posts: PostProps[];
 }
+
+
+export interface UserProps {
+    id: number;
+    name: string;
+    username: string;
+    email: string;
+    address: {
+        street:string;
+        suite: string;
+        city: string;
+        zipcode: string;
+        geo: {
+            lat: string;
+            lng: string;
+        }
+    }
+    phone: string;
+    website: string;
+    company: {
+        company_name: string;
+        catchPhrase: string;
+        bs: string
+    }
+}
+
+
+export interface UserPageProps {
+    posts:UserProps[];
+}
