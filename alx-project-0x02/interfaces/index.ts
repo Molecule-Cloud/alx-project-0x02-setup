@@ -29,3 +29,7 @@ export interface PostProps {
     content: string;
     userId: string;
 }
+
+export interface PostsPageProps {
+    posts: PostProps[];
+}
