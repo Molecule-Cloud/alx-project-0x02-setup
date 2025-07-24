@@ -30,7 +30,7 @@ const Home: React.FC = () => {
             {/* Render the Posts Dymamically */}
             {
                 posts.map((post, index) => (
-                    <div className='flex items-center flex-col p-12  border' key={index}>
+                    <div className='flex items-center justify-center space-x-4' key={index}>
                         <h2>{ post.title }</h2>
                         <p>{ post.content }</p>
                     </div>
